@@ -7,8 +7,12 @@ Enjoy!
 
 
 Restrictions:
-1. no * operator allowed
+1.  * operator is filtered
+
+
 2. no file operations
+
+
 3. pretty much anything that has to do with memory management is disabled
 
 Requirements:

@@ -8,13 +8,13 @@ Enjoy!
 
 Restrictions:
 
-1.  * operator is filtered
+1.  multiplication operator is filtered
 
 
-2. no file operations
+2. file operations are filtered
 
 
-3. pretty much anything that has to do with memory management is disabled
+3. pretty much anything that has to do with memory management is filtered
 
 Requirements:
 

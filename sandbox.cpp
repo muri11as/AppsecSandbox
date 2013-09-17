@@ -37,10 +37,7 @@ vector<string> fillBlackList(vector<string>& v, char* c)
 		v.push_back(stringy);
 		
 	}
-	for(size_t i = 0; i < v.size(); i++)
-	{
-		cout << v[i] << endl;
-	}
+	
 	return v;
 
 }
@@ -55,12 +52,7 @@ int main(int argc, char* argv[])
 	    	cout<<"Usage: "<< argv[0] <<" <Input Filename> " << "<Output Filename>" << " <Blacklist Filename>" << endl;
 	    	exit(-1);
 	    }
-		else
-		{
-	    	cout << "filename = " << argv[1] << endl;
-	    	cout << "output file = " << argv[2] << endl;
-	    	cout << "blacklist file = " << argv[3] << endl;
-		}
+		
 		// Fill up the blackList with specific keywords from a file
 		blackList = fillBlackList(blackList, argv[3]);
 	

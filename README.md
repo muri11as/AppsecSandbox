@@ -6,6 +6,11 @@ In the sourcecode, there is an explanation on how to go about doing multiplicati
 Enjoy!
 
 
+Restrictions:
+1. no * operator allowed
+2. no file operations
+3. pretty much anything that has to do with memory management is disabled
+
 Requirements:
 
 Run the following in a terminal window.

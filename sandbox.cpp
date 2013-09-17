@@ -24,6 +24,8 @@
 #include<string>
 #include <fstream>
 #include <vector>
+#inlcude <cstdlib>
+#include <cstring>
 
 using namespace std;
 vector<string> fillBlackList(vector<string>& v, char* c)
